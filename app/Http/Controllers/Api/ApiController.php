@@ -21,7 +21,6 @@ class ApiController extends Controller {
             "email" => "required|email|unique:users",
             "password" => "required|confirmed",
             "address" => "required",
-            "study_course" => "required"
         ]);
 
         // Create User
